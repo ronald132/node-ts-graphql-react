@@ -34,3 +34,5 @@ curl -X POST http://localhost:9000/delete-listing -H 'Content-Type: application/
 npm i apollo-server-express
 npm i graphql
 npm i -D @types/graphql
+
+### Querying and Mutating listing data
