@@ -38,3 +38,22 @@ npm i -D @types/graphql
 ### Querying and Mutating listing data
 
 npm i -D @graphql-tools/utils
+
+### Using GraphQL Schema Language
+
+npm i -D @graphql-tools/utils
+
+### Storing Data in MongoDB
+
+#### Dockerize
+
+docker run -itd -e MONGO_INITDB_ROOT_USERNAME=<username> -e MONGO_INITDB_ROOT_PASSWORD=<password> -p 27017:27017 -v mongo-vol:/data/db --name mongo-db mongo
+
+#### connection string
+
+mongodb+srv://<username>:<password>@localhost
+
+### Connect to MongoDB
+
+npm i mongodb
+npm i -D @types/mongodb
