@@ -36,3 +36,5 @@ npm i graphql
 npm i -D @types/graphql
 
 ### Querying and Mutating listing data
+
+npm i -D @graphql-tools/utils
