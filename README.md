@@ -1,30 +1,36 @@
-## Enable express
+### Enable express
 
 npm i express
 
-## Automatic reloading with Nodemon
+### Automatic reloading with Nodemon
 
 npm i -D nodemon
 
-## Build
+### Build
 
 npm run build
 
-## Run
+### Run
 
 node build/index.js
 
-## Linsting with ESList
+### Linting with ESLint
 
 npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
-## Enable body parser
+### Enable body parser
 
 npm i -D @types/body-parser
 
-## Testing with curl
+### Testing with curl
 
-curl -X POST http://l"ocalhost:9000/delete-listing -H 'Content-Type: application/json' -d '{"id": "001"}'
+curl -X POST http://localhost:9000/delete-listing -H 'Content-Type: application/json' -d '{"id": "001"}'
 
 -X : specify which HTTP method to use
 -H : header
+
+### Instaling Apollo Server and GraphQL
+
+npm i apollo-server-express
+npm i graphql
+npm i -D @types/graphql
