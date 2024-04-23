@@ -57,3 +57,9 @@ mongodb+srv://<username>:<password>@localhost
 
 npm i mongodb
 npm i -D @types/mongodb
+
+### Typescript Generics and adding types to our Collections
+
+### Setting up Environment Variable using dotenv
+
+npm i -D dotenv @types/dotenv
