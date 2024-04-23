@@ -63,3 +63,10 @@ npm i -D @types/mongodb
 ### Setting up Environment Variable using dotenv
 
 npm i -D dotenv @types/dotenv
+
+### Interact graphql with mongodb
+
+### Modularizing Resolvers
+
+npm i lodash.merge
+mpm i -D @types/lodash.merge
