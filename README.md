@@ -88,3 +88,14 @@ mpm i -D @types/lodash.merge
 npx create-react-app client --template typescript
 cd client
 npm start
+
+### Create Listing Components
+
+### Props & TypeScript
+
+### Querying Listing using GraphQL
+
+### Webpack help to proxy to handle CORS issue
+
+- remember to clear cache by deleting package-lock.json and node_modules
+- run npm install again
