@@ -99,3 +99,5 @@ npm start
 
 - remember to clear cache by deleting package-lock.json and node_modules
 - run npm install again
+
+### Use React Hooks
