@@ -1,3 +1,5 @@
+## Server
+
 ### Enable express
 
 npm i express
@@ -70,3 +72,19 @@ npm i -D dotenv @types/dotenv
 
 npm i lodash.merge
 mpm i -D @types/lodash.merge
+
+## Client
+
+### Use React
+
+1. React is reusable component
+2. React is data driven application, we change data in state so the UI will update
+3. Props is used to passed data from one component to another, one direction from parent to children
+
+### Webpack is javascript bundler
+
+### Create react app
+
+npx create-react-app client --template typescript
+cd client
+npm start
